@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     background-color: #2b2d42;
+    padding: 0;
 }
 
 div {
@@ -12,21 +13,46 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-family: 'Unbounded', cursive;  
+}
+
 h1 {
     padding-top: 2.5%;
 }
 
+h2 {
+    font-size: 30px;
+}
+
+ul {
+    padding: 0;
+}
+
+hr {
+    width: 30%;
+    background-color: red;
+    height: .05em;
+   
+}
+
 .top-video {
-    opacity: .2;
+    opacity: .4;
     position: fixed;
     object-fit: fill;
     width: 100%;
     position:absolute;
+    
 }
 
 .name-and-intro {
     font-size: 20px;
     padding-top: 10%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.middle-top {
+    padding-bottom: 15%;
 }
 
 .top {
@@ -38,15 +64,19 @@ h1 {
 
 .middle {
     text-align: center;
+    padding-bottom: 5%;
 }
 
-.middle > * {
-    padding-left: 2.5%;
-}
 .bottom {
     text-align: center;
 }
 
 .pfp {
     border-radius: 20%;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.languages {
+    float: right;
 }
