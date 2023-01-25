@@ -80,16 +80,17 @@ hr {
 .skills {
     width: 100%;
     height: fit-content;
-    justify-items: center;
+    overflow: hidden;
 }
 
 .language-head {
     height: 20%;
     width: 45%;
-    position: relative;
+    overflow: hidden;
+    right: 100%;
 }
 
 .languages {
-    width: 50%;
+    width: 30%;
     float: right;
 }
