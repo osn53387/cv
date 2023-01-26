@@ -189,13 +189,15 @@ dt {
 }
 
 .card {
+    text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 40%;
-    padding: 10%;
-    gap: 50%;
+    width: 20%;
+    padding: 5%;
+    height: 50%;
 }
 .card form input {
-    margin-bottom: 5em;
+    margin: 2em auto;
 }
